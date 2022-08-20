@@ -2,11 +2,11 @@ This is a guide for initializing a tailwindcss project.
 
 - Visit the docs : https://tailwindcss.com/docs/installation 
 
+- npm init : allows you to add your tailwind css dev build script
+
 - npm install -D tailwindcss : installs tailwind as a dependency
 
 - npx tailwindcss init : creates tailwind config file
-
-- npm init : allows you to add your tailwind css dev build script
 
 - Configure your template path within your tailwind.config.js, under content: [] by including your html and js file. NO .css
 
