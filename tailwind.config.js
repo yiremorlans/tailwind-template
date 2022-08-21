@@ -5,7 +5,19 @@ module.exports = {
     'main.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/wavehead.svg')",
+        'footer-texture': "url('/img/waveft.svg')",
+      },
+      colors : {
+        'theme': '#ff5500',
+      },
+      fontFamily: {
+        'Glegoo': ["'Glegoo'", 'serif'],
+        'Marcellus': ["'Marcellus'", 'serif']
+      }
+    },
   },
   plugins: [],
 }
